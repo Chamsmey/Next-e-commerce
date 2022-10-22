@@ -1,0 +1,11 @@
+.container {
+    width: 80%;
+    margin: auto;
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+}
+.not_found{
+    width: 100%;
+    margin: auto;
+}
