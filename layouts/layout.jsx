@@ -1,7 +1,7 @@
-import Footer from "./footer";
-import Navbar from "./navbar";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 import Head from 'next/head';
-import Style from "./Footer.module.css";
+import Style from './Layout.module.css';
 const Layout = ({ children }) => {
   return (
     <>
@@ -13,7 +13,6 @@ const Layout = ({ children }) => {
         </Head>
         <Navbar />
         {children}
-
         <Footer />
       </div>
     </>

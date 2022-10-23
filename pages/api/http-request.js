@@ -5,9 +5,6 @@ const publicRuntimeConfig = getConfig();
 const axiosCilentRequest = axios.create({
     baseURL:publicRuntimeConfig.requestUrl,
     headers:{'content-type':'application/json'}
-
-
 })
-
 
 export default axiosCilentRequest;

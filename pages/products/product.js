@@ -5,7 +5,7 @@ import Style from "../../styles/Product.module.css";
 function Product({ product }) {
   return (
     <div className={Style.item}>
-      <Image src={product.image} width={120} height={100} />
+      <Image src={product.image} width={120} height={100}  alt="Product"/>
       <div className={Style.detail}>
         <h1 className={Style.title}>{product.title}</h1>
         <p >{product.price} $</p>

@@ -18,7 +18,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={Style.col}>
-          <Link href="/products/categories">
+          <Link href="/products/">
             <a>Products</a>
           </Link>
         </li>
