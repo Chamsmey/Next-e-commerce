@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 4em ;
+    padding: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background: #000; */
+    
+
+}
+
+.menuItem{
+    width: 15%;
+}
+
+.listItem{
+    width: 85%;
+    margin: auto;
+    /* background: #000; */
+
+    /* background: blue; */
+}

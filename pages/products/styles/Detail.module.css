@@ -1,10 +1,11 @@
 .detail{
     /* background: #000; */
-    width: 70%;
+    width: 60%;
 }
 .card{
-    width: 60%;
-    margin:6rem auto;
+    width: 70%;
+    margin: auto;
+    
 }
 .item{
 
@@ -46,4 +47,13 @@
 
   .price{
     color: orange;
+  }
+
+  .title{
+    font-size: 1rem;
+  }
+
+.description{
+    font-size: 12px;
+    font-weight: 200;
   }

@@ -1,22 +1,20 @@
 
-
-import styles from '../styles/Home.module.css'
-import Layout from '../layouts/layout';
-import { useEffect, useState } from 'react';
-
-export default function Home({ data }) {
+import styles from '../styles/Home.module.css';
+export default function Home() {
   
   // const [data, setData] = useState(data);
   return (
-    
+
     <div className={styles.container}>
 
-      <main className={styles.main}>
-        
-        <h1 key={0}>{ data}</h1>
-      </main>
+      <div className={styles.main}>
+      
+        <h1> Wellcome to home page</h1>
+      </div>
 
     </div>
+
+    
   )
 }
 

@@ -1,27 +1,21 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
+ const useFetch =  (path) => {
+    const [data,setData] =useState(null);
 
-const useFetch =  (path) => {
-    const [data,setData] =useState([]);
-
-    useEffect(()=>{
-        const getData= async()=>
-            await fetch('https://fakestoreapi.com/products/'+path)
-            .then(res=> res.json()).then(data=>{
-                console.log(data)
-                setData(data)
-            } )
-        
-          
-          // call back
-          getData()
-    },
-    // unsubscribe 
-    []
+            useEffect(()=>{
+                const getData= async()=>
+                    axios.get('https://fakestoreapi.com/'+ path)
+                    .then(res=> setData(res.data))
+                    getData()
+            },
+            // unsubscribe 
+            []
     )
     
 
 
-return data
+return {data}
 }
  
 export default useFetch;

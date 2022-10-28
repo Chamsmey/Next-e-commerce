@@ -7,24 +7,24 @@ const Navbar = () => {
     <header className={Style.header}>
       <ul className={Style.row}>
         <li className={Style.col}>
-        <Link href="/">
+        <Link href="/" className="font-bold text-blue-400 font-poppin">
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           
           </Link>
         </li>
         <li className={Style.col}>
           <Link href="/">
-            <a>Home</a>
+            Home
           </Link>
         </li>
         <li className={Style.col}>
-          <Link href="/products/">
-            <a>Products</a>
+          <Link href="/products">
+            Products
           </Link>
         </li>
         <li className={Style.col}>
           <Link href="/cart">
-            <a>Cart</a>
+            Cart
           </Link>
         </li>
       </ul>

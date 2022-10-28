@@ -36,8 +36,8 @@
 }
 .category{
     position: fixed;
-    top: 1;
-
+    
+    font-size: 12px;
 }
 
 .list_item:hover{
